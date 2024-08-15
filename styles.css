@@ -1,0 +1,36 @@
+.text {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px; /* Adiciona espaço entre os itens da grid */
+  padding: 1%;
+  margin: 1%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 2%;
+  font-size: 30px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave ao hover */
+}
+
+.fa-solid {
+  color: #F4D0A3;
+}
+
+.grid-item:hover {
+  background-color: #E7E9EB;
+}
+
+.Resposta {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 20px; /* Adiciona um espaço acima da resposta para melhorar o layout */
+}
